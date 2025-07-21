@@ -3,8 +3,6 @@ import pandas as pd
 from geobr import read_municipality
 import pydeck as pdk
 
-municipios_destaque = ['Cuiabá', 'Sinop', 'Rondonópolis', 'Várzea Grande']
-
 
 def formatar_colunas_br(df, casas_decimais=2):
     """

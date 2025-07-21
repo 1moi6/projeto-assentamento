@@ -19,7 +19,7 @@ def run():
     # Centraliza com colunas e flex
     if st.session_state['page']=="home":
         load_css("./assets/css/styles.css")
-        st.markdown("""<div class="title-text">Aplicativo de distribuição de disciplinas - DEMAT - UFMT</div>""", unsafe_allow_html=True)
+        st.markdown("""<div class="title-text">Painel da Reforma Agrária</div>""", unsafe_allow_html=True)
         col1, col2, col3 = st.columns([0.3, 0.4, 0.3])
         with col2:
             st.markdown('<div class="button-space"></div>', unsafe_allow_html=True)
